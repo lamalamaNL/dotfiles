@@ -41,6 +41,7 @@ brew 'redis'
 brew 'yarn'
 brew 'docker'
 brew 'nvm'
+brew 'mailhog'
 
 # Apps
 cask 'alfred'
