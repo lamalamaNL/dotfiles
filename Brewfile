@@ -40,6 +40,7 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 brew 'docker'
+brew 'nvm'
 
 # Apps
 cask 'alfred'
