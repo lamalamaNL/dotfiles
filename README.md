@@ -33,19 +33,31 @@ After backing up your old Mac you may now follow these install instructions to s
    curl https://raw.githubusercontent.com/lamalamaNL/dotfiles/main/ssh.sh | sh -s "<your-email-address>"
    ```
 
-3. Clone this repo to `~/.dotfiles` with:
+4. Clone this repo to `~/.dotfiles` with:
 
     ```zsh
-    git clone --recursive git@github.com:lamalamaNL/dotfiles.git ~/.dotfiles
+    git clone https://github.com/lamalamaNL/dotfiles.git ~/.dotfiles
     ```
 
-4. Run the installation with:
+5. Install ohmyz by running:
+
+    ```zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
+
+3. Close and re-open your terminal and prepare the install script by running:
+
+    ```zsh
+    ~/.dotfiles/prepare.sh
+    ```
+
+4. Close and re-open your terminal and run the installation with:
 
     ```zsh
     ~/.dotfiles/fresh.sh
     ```
 
-5. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
+
 6. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
