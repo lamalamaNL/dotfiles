@@ -7,6 +7,7 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias compile="commit 'compile'"
 alias version="commit 'version'"
+alias edit-shortcuts="vim $ZSH_CUSTOM/aliases.zsh"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
@@ -19,6 +20,11 @@ alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
 alias seed="php artisan db:seed"
 alias serve="php artisan serve"
+alias stan="./vendor/bin/phpstan analyse"
+alias pint="./vendor/bin/pint"
+alias pest="./vendor/bin/pest --parallel"
+alias ray='php artisan dev:check-for-ray'
+alias ci='ray && pint && stan && pest'
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
@@ -26,6 +32,7 @@ alias cfresh="rm -rf vendor/ composer.lock && composer i"
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
+alias npr="npm run"
 
 # Git
 alias gst="git status"
