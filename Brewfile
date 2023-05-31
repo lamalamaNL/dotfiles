@@ -42,7 +42,6 @@ brew 'yarn'
 brew 'docker'
 brew 'nvm'
 brew 'mailhog'
-brew 'postman'
 
 # Apps
 cask 'alfred'
