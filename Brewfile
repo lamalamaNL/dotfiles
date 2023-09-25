@@ -81,9 +81,9 @@ cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+# cask 'font-source-serif-pro'
 
 # Mac App Store
 # Issue with Keynote install
-mas 'Keynote', id: 409183694 
-mas 'Numbers', id: 409203825
+# mas 'Keynote', id: 409183694 
+# mas 'Numbers', id: 409203825
